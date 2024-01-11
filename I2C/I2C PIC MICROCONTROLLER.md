@@ -1,3 +1,6 @@
+#embedded #myhound 
+
+---
 ### I2C
 Sta per **Inter-Integrated Circuit**. Si può chiamare anche IIC, o ITWOC. 
 Creata da philips nel 1982.
@@ -20,7 +23,7 @@ Entrambi i bus sono open drain o open collector, perchè si lascera massima tens
 
 ### I2C Data Transfer
 ![[Pasted image 20230915094642.png]]
-La comunicazione sull'I2C inizia con una *start condition*, Viene poi messo il *client address*, si inserisce la condizione di read o write (*R/W*), che è un bit. Ci sono poi bit di acknowledge (*ACK*), i *data byte*. La comunicazione è poi conclusa con una condizione di *stop*.
+La comunicazione sull'I2C inizia con una *start condition*. Viene poi messo il *client address*, si inserisce la condizione di read o write (*R/W*), che è un bit. Ci sono poi bit di acknowledge (*ACK*), i *data byte*. La comunicazione è poi conclusa con una condizione di *stop*.
 
 ###### Start condition
 La comunicazione deve essere iniziata con lo stato del SDA e del SCL in stato di idle (ovvero con valore di logic 1). Essendo open drain i bus in condizione di idle, quindi non cotrollati, hanno una condizione di default di alto per le resistenze in parallelo.

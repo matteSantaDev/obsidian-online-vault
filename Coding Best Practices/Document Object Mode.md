@@ -1,0 +1,1 @@
+Rappresentazione strutturata di un documento html 
