@@ -1,0 +1,2 @@
+Specifico tipo di rete [[Artificial Neural Networks (ANN)]] in cui le connessioni tra i nodi formano un [[Grafo Diretto]] (considerando una sequenza temporale), consentendo ai singoli nodi di usare la memoria interna per processare sequenze di input di lunghezza variabile.
+Per questo motivo le RNN sono eccezionali per gestire e processare sequenze di dati (come ad esempio nel riconoscimento testuale o audio).
