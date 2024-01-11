@@ -1,5 +1,5 @@
 Serial Peripheral Interface
-
+#embedded
 ___
 
 ![[Pasted image 20230925094717.png]]
